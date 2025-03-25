@@ -62,7 +62,7 @@ void rate_monotonic_scheduling(Task tasks[], int num_tasks, int total_time) {
             for (int i = 0; i < num_tasks; i++)
             {
                 if (i == executed_task) {
-                    printf("Exec %d\t", tasks[executed_task].id);
+                    printf("Exec\t");
                 } else {
                     printf("\t");
                 }
