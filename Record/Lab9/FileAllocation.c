@@ -1,3 +1,5 @@
+// Sequential Allocation Only
+
 #include <stdio.h>
 
 int main()
