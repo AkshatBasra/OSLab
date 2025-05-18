@@ -23,6 +23,7 @@ void main()
     //printf("-------\n");
 
     list[0].wt = 0;
+    list[0].tat = list[0].bt;
     wta = tata = 0;
     for(i = 1; i < n; i++)
     {
